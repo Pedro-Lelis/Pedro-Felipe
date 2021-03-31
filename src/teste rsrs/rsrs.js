@@ -1,1 +1,0 @@
-"skapnfgasin{sdaçsda}"
