@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0px auto 0px;
+  margin-top: 50px;
+  max-width: 700px;
+  max-height: 1000px;
+  float: none;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align-last: justify;
+  margin: 0px auto 0px;
+  max-height: 150px;
+  max-width: 700px;
+  max-height: 70px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #fff;
+}
+
+.type {
+  margin-left: 350px;
+}
+
+.StatsAndImg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nameAndSprite {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  justify-content: space-between;
+  margin-right: 60px;
+  margin-left: -15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.imgSpecific {
+  height: 150px;
+  width: 150px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-left: 500px;
+  height: max-content;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+.hp {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: -20px;
+}
+
+.attack {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: -20px;
+}
+
+.defense {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: -20px;
+}
+
+.speed {
+  display: flex;
+  justify-content: space-around;
+}
+
+.description {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
