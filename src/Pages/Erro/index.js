@@ -7,7 +7,7 @@ class Erro extends Component{
         return(
             <div className="containerError">
                 <h1>Sorry, wrong way...</h1>
-                <Link to='/' className="errorLink"> Back to the homepage</Link>
+                <Link to='/PokemonList' className="errorLink"> Back to the pokemon list.</Link>
             </div>
         );
     }

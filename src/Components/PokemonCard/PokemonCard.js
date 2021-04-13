@@ -21,11 +21,6 @@ class PokemonCard extends Component{
         }
     }
 
-
-    
-        
-
-
     render(){
 
         return(
@@ -39,10 +34,10 @@ class PokemonCard extends Component{
                             
                             <p className="typeCard">{this.type()}</p>
                         </div>
-                        <div>
+                        
                             
                             <img src={`/Sprites/${this.props.pokemon.national_pokedex_number}.png`} className="img"/>
-                        </div>
+                        
                     </div>
                     
                 </div>

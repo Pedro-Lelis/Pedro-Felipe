@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Pokemon from '../../Pages/Pokemon';
+import {Link} from 'react-router-dom';
 import './PokemonSpecific.css';
 
 
@@ -28,9 +29,12 @@ class PokemonSpecific extends Component {
       return (
         
           <div className="container">
+            
             <div className="title">
+              
               <h3>Pokedex ID: {this.props.pokemon.national_pokedex_number}</h3>
               <h3 className="type">{this.type()}</h3>
+              
             </div>
             
             <div className="StatsAndImg">
@@ -62,9 +66,15 @@ class PokemonSpecific extends Component {
                 </div>
               </div>
             </div>
+            
             <div className="description">
               <h4>{this.props.pokemon.description}</h4>
             </div>
+            
+            <div>
+              <Link to='/PokemonList' className="linkSpecific">Back to the list.</Link>
+            </div>
+          
           </div>
         
       );
